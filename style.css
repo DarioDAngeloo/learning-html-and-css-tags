@@ -1,0 +1,68 @@
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0px;
+  background-color: rgb(234, 232, 232);
+}
+
+header {
+  background-color: steelblue;
+  color: white;
+  padding: 3rem 2rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+section article {
+  transition: box-shadow 0.35s ease;
+  background-color: rgb(219, 217, 214);
+  margin: 1rem 0;
+  border-radius: 0.8rem;
+  padding: 0.25rem 0;
+  cursor: pointer;
+}
+
+section article:hover {
+  box-shadow: 0 0.1rem 0.4rem black;
+}
+
+section article h2,
+section article p {
+  margin: 1rem;
+}
+
+footer {
+  background-color: rgb(94, 165, 203);
+  padding: 3rem;
+  color: white;
+}
+
+footer section {
+  float: right;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  transition: color 0.3s ease;
+  color: white;
+  text-decoration: none;
+  margin: 15px;
+  /* padding: 1px; */
+}
+
+footer a:hover {
+  color: darkcyan;
+}
